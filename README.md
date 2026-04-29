@@ -6,9 +6,7 @@ together with the **Perush ha-Sulam** commentary by Rabbi Yehuda Ashlag
 
 ## Site
 
-- **https://bneiadam.com/** — primary URL (custom domain)
-- **https://imyavel.github.io/zohar-sulam/** — backup URL (GitHub Pages, works
-  even if the custom domain becomes unavailable)
+**https://imyavel.github.io/zohar-sulam/**
 
 ## Translators
 
@@ -29,7 +27,3 @@ See [`LICENSE`](LICENSE) for the full legal text.
 This repository contains the rendered static site (HTML/CSS only).
 Source `.md` files and the build pipeline live elsewhere; this repo
 receives auto-deploys after every translated article.
-
-A custom-domain mirror of this repo lives at
-[imyavel/zohar-sulam-mirror](https://github.com/imyavel/zohar-sulam-mirror)
-and serves `bneiadam.com`.
