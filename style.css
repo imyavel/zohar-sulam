@@ -119,6 +119,5 @@ footer.footer {
   text-align: center;
 }
 footer.footer p { margin: 0.35rem 0; line-height: 1.5; }
-footer.footer .source { font-style: italic; }
 footer.footer a { color: var(--muted); text-decoration: underline; }
 footer.footer a:hover { color: var(--accent); }
