@@ -49,6 +49,7 @@ h2 {
   font-weight: normal;
 }
 p { margin: 0 0 1rem; text-align: justify; }
+p.para-start { padding-left: 1.5rem; }
 strong { font-weight: bold; }
 em { font-style: italic; }
 a { color: var(--accent); }
