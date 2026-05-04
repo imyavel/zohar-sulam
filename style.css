@@ -122,3 +122,32 @@ footer.footer {
 footer.footer p { margin: 0.35rem 0; line-height: 1.5; }
 footer.footer a { color: var(--muted); text-decoration: underline; }
 footer.footer a:hover { color: var(--accent); }
+section.parasha-widget {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+section.parasha-widget .label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 0.4rem;
+}
+section.parasha-widget .name {
+  font-size: 1.25rem;
+  color: var(--accent);
+  margin: 0 0 0.3rem;
+}
+section.parasha-widget .name a { text-decoration: none; }
+section.parasha-widget .name a:hover { text-decoration: underline; }
+section.parasha-widget .alt {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0.4rem 0 0;
+}
+section.parasha-widget .alt a { color: var(--muted); }
+section.parasha-widget .date {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
