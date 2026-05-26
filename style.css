@@ -184,6 +184,9 @@ footer.footer {
 footer.footer p { margin: 0.35rem 0; line-height: 1.5; }
 footer.footer a { color: var(--muted); text-decoration: underline; }
 footer.footer a:hover { color: var(--accent); }
+footer.footer .stats-inline { margin-top: 0.6rem; }
+footer.footer .stats-inline .num { color: #888; font-variant-numeric: tabular-nums; }
+footer.footer .stats-inline .sep { opacity: 0.5; margin: 0 0.35rem; }
 section.parasha-widget {
   margin-top: 2.5rem;
   padding-top: 1.5rem;

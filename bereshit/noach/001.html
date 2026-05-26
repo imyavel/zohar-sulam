@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Статья 1. Ноах и ковчег</title>
 <link rel="canonical" href="https://imyavel.github.io/zohar-sulam/bereshit/noach/001.html">
-<link rel="stylesheet" href="../../style.css?v=dc6debb1">
+<link rel="stylesheet" href="../../style.css?v=0113adda">
+<script data-goatcounter="https://zohar-sulam.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -49,6 +50,30 @@
 <p class="source">Источник — «Перуш hа-Сулам» рава Йегуды Ашлага (Бааль hа-Сулам, 1885–1954). Перевод с иврита и арамейского.</p>
 <p class="attrib">Переведено Claude Opus 4.7 от Anthropic и <a href="https://proza.ru/avtor/agent017" rel="author">Элиягу Бар Малей</a>.</p>
 <p class="license">Текст доступен на условиях <a href="https://creativecommons.org/licenses/by/4.0/deed.ru" rel="license">Creative Commons Attribution 4.0 (CC BY 4.0)</a> — свободное копирование, распространение и адаптация при указании авторов и ссылки на этот сайт.</p>
+<p class="stats-inline">Сегодня <span class="num" id="gc-today">—</span><span class="sep">·</span>за 30 дней <span class="num" id="gc-month">—</span><span class="sep">·</span>всего <span class="num" id="gc-total">—</span> просмотров</p>
+<script>
+(function(){
+  var b="https://zohar-sulam.goatcounter.com/counter/TOTAL.json";
+  var now=new Date();
+  var iso=function(d){return d.toISOString().slice(0,10);};
+  var today=iso(now);
+  var monthAgo=iso(new Date(now.getTime()-30*86400000));
+  function fmt(n){return Number(n).toLocaleString("ru-RU");}
+  function set(id,url){
+    fetch(url,{credentials:"omit"})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(d){
+        if(!d) return;
+        var el=document.getElementById(id);
+        if(el) el.textContent=fmt(d.count);
+      })
+      .catch(function(){});
+  }
+  set("gc-today",b+"?start="+today);
+  set("gc-month",b+"?start="+monthAgo);
+  set("gc-total",b);
+})();
+</script>
 </footer>
 </div>
 </body>
